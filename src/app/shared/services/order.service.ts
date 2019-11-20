@@ -2,7 +2,7 @@ import { map } from 'rxjs/operators';
 import { ShoppingCartService } from 'shared/services/shopping-cart.service';
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Order } from '../../models/order';
+import { Order } from 'shared/models/order';
 
 @Injectable({
   providedIn: 'root'

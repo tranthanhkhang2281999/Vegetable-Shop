@@ -1,10 +1,10 @@
-import { Product } from 'app/models/product';
 import { ProductService } from 'shared/services/product.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription, Observable } from 'rxjs';
 import { DataTableResource } from 'angular7-data-table';
 import { AngularFirestoreCollection } from '@angular/fire/firestore';
 import { Router } from '@angular/router';
+import { Product } from 'shared/models/product';
 
 @Component({
   selector: 'app-admin-products',
