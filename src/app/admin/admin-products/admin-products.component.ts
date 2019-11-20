@@ -1,9 +1,8 @@
+import { Product } from 'app/models/product';
 import { ProductService } from './../../product.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription, Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
 import { DataTableResource } from 'angular7-data-table';
-import { Product } from 'src/app/models/product';
 import { AngularFirestoreCollection } from '@angular/fire/firestore';
 import { Router } from '@angular/router';
 

@@ -4,7 +4,7 @@ import { CategoryService } from './../../category.service';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { take, map } from 'rxjs/operators';
-import { Category } from 'src/app/models/category';
+import { Category } from 'app/models/category';
 import { Observable } from 'rxjs';
 
 @Component({

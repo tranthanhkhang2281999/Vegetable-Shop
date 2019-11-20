@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { AngularFirestoreCollection } from '@angular/fire/firestore';
-import { Category } from 'src/app/models/category';
-import { CategoryService } from 'src/app/category.service';
+import { Category } from 'app/models/category';
+import { CategoryService } from 'app/category.service';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
