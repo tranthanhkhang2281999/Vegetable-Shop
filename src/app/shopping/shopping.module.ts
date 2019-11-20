@@ -1,7 +1,4 @@
-import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from 'app/app-routing.module';
 
 import { SharedModule } from './../shared/shared.module';
 import { CheckOutComponent } from './components/check-out/check-out.component';
@@ -26,10 +23,7 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
     ShippingFormComponent
   ],
   imports: [
-    CommonModule,
-    SharedModule,
-    FormsModule,
-    AppRoutingModule
+    SharedModule
   ]
 })
 export class ShoppingModule { }
