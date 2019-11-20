@@ -2,7 +2,7 @@ import { ProductFormComponent } from './admin/components/product-form/product-fo
 import { AdminAuthGuard } from './admin/services/admin-auth-guard.service';
 import { MyOrdersComponent } from './shopping/components/my-orders/my-orders.component';
 import { AdminProductsComponent } from './admin/components/admin-products/admin-products.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './core/components/login/login.component';
 import { OrderSuccessComponent } from './shopping/components/order-success/order-success.component';
 import { CheckOutComponent } from './shopping/components/check-out/check-out.component';
 import { ShoppingCartComponent } from './shopping/components/shopping-cart/shopping-cart.component';
