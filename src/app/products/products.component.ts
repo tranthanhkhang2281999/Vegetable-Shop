@@ -1,5 +1,5 @@
-import { ShoppingCartService } from './../shopping-cart.service';
-import { ProductService } from './../product.service';
+import { ShoppingCartService } from 'shared/services/shopping-cart.service';
+import { ProductService } from 'shared/services/product.service';
 import { Observable, Subscription } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { AngularFirestoreCollection } from '@angular/fire/firestore';

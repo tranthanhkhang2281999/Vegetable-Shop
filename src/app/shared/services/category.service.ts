@@ -1,6 +1,6 @@
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Injectable } from '@angular/core';
-import { Category } from './models/category';
+import { Category } from 'shared/models/category';
 
 @Injectable({
   providedIn: 'root'

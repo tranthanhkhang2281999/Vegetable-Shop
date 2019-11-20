@@ -1,9 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { AngularFirestoreCollection } from '@angular/fire/firestore';
 import { Category } from 'app/models/category';
-import { CategoryService } from 'app/category.service';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { CategoryService } from 'shared/services/category.service';
 
 @Component({
   selector: 'product-filter',

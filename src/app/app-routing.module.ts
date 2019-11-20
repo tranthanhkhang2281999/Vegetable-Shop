@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
-import { AuthGuard } from './auth-guard.service';
+import { AuthGuard } from 'shared/services/auth-guard.service';
 
 
 const routes: Routes = [

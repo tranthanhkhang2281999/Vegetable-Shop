@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
 import { take, map } from 'rxjs/operators';
-import { Product } from './models/product';
-import { ShoppingCartItem } from './models/shopping-cart-item';
-import { ShoppingCart } from './models/shopping-cart';
+import { Product } from '../../models/product';
+import { ShoppingCartItem } from '../../models/shopping-cart-item';
+import { ShoppingCart } from '../../models/shopping-cart';
 
 @Injectable({
   providedIn: 'root'
