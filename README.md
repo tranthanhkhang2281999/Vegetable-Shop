@@ -10,9 +10,13 @@ You can visit this site to see a real wep app: https://shop-3ef5b.firebaseapp.co
 This is an Angular project with:
 
 Firebase Firestore (implemented with @angular/fire or angularfire2)
+
 Bootsrap 4 (implemented with NG Bootstrap)
+
 Font Awesome
+
 Angular 7 data table
+
 RxJS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
