@@ -4,6 +4,8 @@ This is a simple e-commerce application built with Angular 8, Firebase and Boots
 
 This version was adapted to Angular 8 in order to handle version mismatches, and it contains new components and customizations.
 
+You can visit this site to see a real wep app: https://shop-3ef5b.firebaseapp.com/
+
 ## Features
 This is an Angular project with:
 
