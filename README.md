@@ -1,5 +1,18 @@
 # Shop
 
+This is a simple e-commerce application built with Angular 8, Firebase and Bootstrap 4, as the final project for the course "The Complete Angular Master Class", created by Mosh Hamedani. The intent of the project is to show how a real world Angular application is.
+
+This version was adapted to Angular 8 in order to handle version mismatches, and it contains new components and customizations.
+
+## Features
+This is an Angular project with:
+
+Firebase Firestore (implemented with @angular/fire or angularfire2)
+Bootsrap 4 (implemented with NG Bootstrap)
+Font Awesome
+Angular 7 data table
+RxJS
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
 ## Development server
